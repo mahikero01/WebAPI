@@ -12,13 +12,12 @@
     <!-- jQuery -->
     @Scripts.Render("~/bundles/jquery")
 
-    <!-- Bootstrap and Customm Style -->
+    <!-- Custom Style + Bootstrap -->
     @Scripts.Render("~/bundles/bootstrap")
     @Styles.Render("~/Content/css")
 
-    <!-- Angular systemjs -->
+    <!-- SystemJS Config Files for loading dependencies and Main bootstrap of Angular-->
     @Scripts.Render("~/bundles/config")
-
     <script>
         System.import('main.js').catch(function (err) { console.error(err); });
     </script>

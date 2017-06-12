@@ -20,7 +20,6 @@ namespace WebAPI
                       "~/node_modules/bootstrap/dist/js/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/node_modules/bootstrap/dist/css/bootstrap.min.css",
                       "~/Content/styles.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/config").Include(
